@@ -1,0 +1,36 @@
+name: Public showcase candidate
+description: Track evidence and review for a project considered for public release.
+title: "[Showcase] "
+labels:
+  - portfolio
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Seraphim Platform
+        - Flowline
+        - PearlFuel Lite
+        - FinTelligence
+        - Windows Efficiency Audit
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Current evidence
+      description: Link only to accessible evidence; do not infer completion.
+    validations:
+      required: true
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Public-release gates
+      options:
+        - label: Clean checkout and setup reproduced
+        - label: Credentials and local data reviewed
+        - label: Third-party assets and licenses reviewed
+        - label: README status and limitations are accurate
+        - label: Academic or employer material excluded
