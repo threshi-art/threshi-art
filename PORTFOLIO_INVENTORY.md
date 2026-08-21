@@ -1,16 +1,18 @@
 # Portfolio inventory
 
-Last audited: 2026-08-05
+Last audited: 2026-08-20
 
 ## Repository-level inventory
 
 | Repository | Visibility | Imported history | Current organization |
 |---|---|---|---|
-| `windows-efficiency-audit` | Public | Curated source extraction | Read-only PowerShell collector, launcher, syntax check, privacy documentation |
+| `windows-efficiency-audit` | Private | Curated source extraction | Read-only PowerShell collector, launcher, syntax check, privacy documentation; release review remains open |
 | `horizons-mod-tooling` | Private | Preserved local audited-baseline commit and tag | Authored scripts, tests, docs, checksums, and patch delta; no game binaries or assets |
 | `personal-projects-portfolio` | Private | One curated source import | FinTelligence, Flowline, PearlFuel Lite, Windows Efficiency Audit |
-| `Seriphim` | Private | Curated source imports | Seraphim platform, satellite-app portfolio, and reviewable EI-RAM engine import |
+| `Seriphim` | Public | Curated source imports | Public-safe Seraphim platform, satellite-app portfolio, reviewed Skill packages, and EI-RAM engine import |
 | `umgc-cs-portfolio` | Private | Curated coursework imports plus later Project 4 evidence work | Course folders, issue catalog, milestones, roadmap, and a draft polish PR |
+| `syntax-analyzer-flex-bison` | Public | Focused academic derivative | CMSC 430 syntax-analysis showcase with explicit coursework provenance |
+| `flex-bison-semantic-analyzer` | Public | Focused academic derivative | CMSC 430 static semantic-analysis showcase with explicit coursework provenance |
 | `threshi-art` | Public | Profile created during portfolio curation | Public landing page and evidence-based inventory |
 
 ## Status definitions
@@ -27,9 +29,13 @@ Last audited: 2026-08-05
 
 ## Availability and constraints
 
-- Windows Efficiency Audit is the first public source repository. Its PowerShell
-  parser check passes; broad clean-machine functional validation remains open.
-- All other substantive source repositories remain private.
+- Windows Efficiency Audit remains private while clean-machine functional and
+  privacy validation are open; its PowerShell parser check passes.
+- Seriphim and the two focused compiler showcases are public reviewed snapshots.
+  Public visibility does not certify production readiness or erase academic and
+  source-provenance boundaries.
+- Flowline, Horizons tooling, the UMGC archive, and the umbrella portfolio remain
+  private.
 - The Windows environment cannot validate Xcode builds, Apple signing,
   TestFlight, or App Store submission.
 - No employer work is included in a public or private GitHub source import from
