@@ -7,11 +7,11 @@ Last audited: 2026-08-24
 | Repository | Visibility | Lifecycle | Current organization |
 |---|---|---|---|
 | `nightstalkers` | Private | Active | Nightstalkers Chopper Command — React + Babylon.js Thermal Rescue Console |
-| `Seriphim` | Public | Active | Public-safe Seraphim platform, satellite-app portfolio, reviewed Skill packages, EI-RAM / Argus within tree |
+| `Seraphim` | Public | Active | Public-safe Seraphim platform, satellite-app portfolio, reviewed Skill packages, EI-RAM / Argus within tree (renamed from `Seriphim`) |
 | `flowline` | Private | Active | Offline iOS game + browser prototype; Capacitor/Xcode shell |
 | `PearlFuel-Web` | Private | Active | PearlFuel Lite web/desktop nutrition planning workspace |
 | `FinTelligence` | Private | Active | Aerospace-inspired finance / retirement planning command center |
-| `horizons-mod-tooling` | Private | Active | Reversible Armada II mod build/install pipeline (no game assets) |
+| `armada2-mod` | Private | Active | Reversible Armada II mod build/install pipeline (no game assets); formerly `horizons-mod-tooling` |
 | `personal-projects-portfolio` | Private | Umbrella snapshot | Historical curated import of FinTelligence, Flowline, PearlFuel, diagnostics — not the 1:1 project repos |
 | `threshi-art` | Public | Profile index | Public landing README + this inventory |
 | `windows-efficiency-audit` | Private | **Archived** | Read-only PowerShell collector |
@@ -24,20 +24,21 @@ Last audited: 2026-08-24
 
 | Name | Where it lives |
 |---|---|
-| Argus Vigil | Inside Seraphim (`Seriphim`) |
-| EI-RAM Analysis Studio | Inside Seraphim (`Seriphim`) |
+| Argus Vigil | Inside Seraphim |
+| EI-RAM Analysis Studio | Inside Seraphim |
 | AEGIS / FinTelligence architecture package | Local documentation only |
 
 ## GitHub Projects ≠ repos
 
 User-owned **Projects** boards are planning surfaces, not code repositories.
-As of 2026-08-24 the four academic roadmap boards were **closed** after the
-related coursework repos were archived:
+Personal boards default to **Private**; that does not control repo visibility.
 
-1. CMSC 345 Week 6 — Reservation Black-Box Testing
-2. UMGC CS Portfolio Roadmap
-3. Project Portfolio Roadmap
-4. CMSC430 Project 4 / WK8
+| Board | State |
+|---|---|
+| [Project Portfolio Roadmap](https://github.com/users/threshi-art/projects/2) | **Open** (living portfolio planning; board stays private) |
+| CMSC 345 Week 6 — Reservation Black-Box Testing | **Closed** (archived coursework) |
+| CMSC430 Project 4 / WK8 | **Closed** (archived coursework) |
+| UMGC CS Portfolio Roadmap | **Closed** (archived academic portfolio) |
 
 ## Status definitions
 
@@ -54,9 +55,9 @@ related coursework repos were archived:
 
 ## Availability and constraints
 
-- Active private sources: Nightstalkers, Flowline, PearlFuel-Web, FinTelligence,
-  Horizons mod tooling.
-- Seriphim and the two focused compiler showcases remain public reviewed
+- Active private sources (on purpose): Nightstalkers, Flowline, PearlFuel-Web,
+  FinTelligence, armada2-mod.
+- Seraphim and the two focused compiler showcases remain public reviewed
   snapshots (compiler showcases are archived). Public visibility does not
   certify production readiness.
 - The Windows environment cannot validate Xcode builds, Apple signing,
