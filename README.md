@@ -25,6 +25,8 @@ academic-use, privacy, and reproducible-setup reviews.
    [Seraphim](https://github.com/threshi-art/Seraphim),
    [syntax-analyzer-flex-bison](https://github.com/threshi-art/syntax-analyzer-flex-bison),
    [flex-bison-semantic-analyzer](https://github.com/threshi-art/flex-bison-semantic-analyzer),
+   [infinity-enterprises-site](https://github.com/threshi-art/infinity-enterprises-site),
+   [CMSC495-CAP](https://github.com/threshi-art/CMSC495-CAP) (fork),
    and this profile repo.
 
 The table below indexes **repos** (and local-only exceptions), not Project boards.
