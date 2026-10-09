@@ -18,7 +18,7 @@ academic-use, privacy, and reproducible-setup reviews.
    (still private as a board).
 2. **New repos often start private.** GitHub's default for new personal repos is
    frequently private until you choose otherwise.
-3. **Unfinished / sensitive work stays private on purpose** — Nightstalkers,
+3. **Unfinished / sensitive work stays private on purpose** â€” Nightstalkers,
    Flowline, PearlFuel, FinTelligence, Armada/Horizons tooling, coursework
    archives, and personal-finance-adjacent material.
 4. **Not everything is private.** Public today:
@@ -41,8 +41,8 @@ The table below indexes **repos** (and local-only exceptions), not Project board
 | **[PearlFuel Lite](https://github.com/threshi-art/PearlFuel-Web)** | Active prototype | PySide6 dog-meal planning desktop app, optional multi-specialist AI assistant, SwiftUI source, and web experiments | **Private** (`PearlFuel-Web`) |
 | **[FinTelligence](https://github.com/threshi-art/FinTelligence)** | Working prototype | Local FastAPI browser app for budgets, portfolio tracking, and retirement projections; an older Flutter prototype is retained | **Private** |
 | **[Armada II mod tooling](https://github.com/threshi-art/armada2-mod)** | Audited baseline, active | Reversible PowerShell build/install pipeline, tests, documentation, checksums, and authored patch delta; game assets excluded (formerly `horizons-mod-tooling`) | **Private** |
-| **Argus Vigil** | Early MVP (within Seraphim) | Defensive packet-analysis architecture, FastAPI backend shell, and dashboard integration plan | **Not a separate repo** — private within Seraphim |
-| **EI-RAM Analysis Studio** | Phase-1 prototype (within Seraphim) | Curated rule-based FastAPI engine, desktop shell, tests, safe sample input, and workbench scaffold; predictive validity remains unvalidated | **Not a separate repo** — private within Seraphim |
+| **Argus Vigil** | Early MVP (within Seraphim) | Defensive packet-analysis architecture, FastAPI backend shell, and dashboard integration plan | **Not a separate repo** â€” private within Seraphim |
+| **EI-RAM Analysis Studio** | Phase-1 prototype (within Seraphim) | Curated rule-based FastAPI engine, desktop shell, tests, safe sample input, and workbench scaffold; predictive validity remains unvalidated | **Not a separate repo** â€” private within Seraphim |
 | **AEGIS / FinTelligence architecture** | Concept baseline | Fifteen-document product, requirements, design, verification, risk, data, API, and AI-agent architecture package; no live-trading implementation | **Local documentation only** (no dedicated GitHub repo) |
 | **[Windows Efficiency Audit](https://github.com/threshi-art/windows-efficiency-audit)** | Archived utility | Read-only PowerShell system-health collector, launcher, local syntax check, privacy guidance, and structured report output | **Private, archived** |
 | **[UMGC computer-science coursework](https://github.com/threshi-art/umgc-cs-portfolio)** | Archived coursework | Java, C++, SQL, Python, data structures, multithreading, and compiler projects with course/starter-code provenance noted | **Private, archived** |
@@ -85,3 +85,26 @@ excluded from publication.
 
 See [PORTFOLIO_INVENTORY.md](PORTFOLIO_INVENTORY.md) for the evidence-based
 inventory and current limitations.
+
+## Repository quick reference
+
+**Status:** active.
+
+**What it is:** The public profile index for selected projects.
+
+**How to run:** GitHub renders README.md on the account profile; there is no application runtime.
+
+
+## Selected highlights
+
+[Seraphim](https://github.com/threshi-art/Seraphim): an operator governed AI platform under active development.
+
+[Infinity Enterprises](https://github.com/threshi-art/infinity-enterprises-site): an independent publication and project portfolio.
+
+**Nightstalkers:** a private helicopter rescue game built with React and Babylon.js. Source remains private; the selected gameplay image is shared here for the portfolio.
+
+![Nightstalkers gameplay](assets/highlights/nightstalkers.png)
+
+**Flowline:** a private offline iPhone signal runner under active development. Its marketing concept preview is shown here; it is not a released App Store listing or a verified shipping screenshot.
+
+![Flowline marketing concept](assets/highlights/flowline.png)
